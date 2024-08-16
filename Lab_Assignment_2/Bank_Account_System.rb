@@ -56,21 +56,21 @@ chandrakanthBank.addAccount("Chaitanya", 456)
 chandrakanthBank.addBalance(453, 500)
 chandrakanthBank.addBalance(456, 300)
 
-puts "Account Details for Account 123:"
+puts "Account Details for Account 453:"
 chandrakanthBank.accountDetails(453)
 
 puts "Account Details for Account 456:"
 chandrakanthBank.accountDetails(456)
 
-puts "Attempting withdrawal from Account 123:"
+puts "Attempting withdrawal from Account 453:"
 chandrakanthBank.withdraw(453, 200)
 
-puts "Updated Account Details for Account 123:"
+puts "Updated Account Details for Account 453:"
 chandrakanthBank.accountDetails(453)
 
-puts "Attempting withdrawal from Account 123 with insufficient funds:"
+puts "Attempting withdrawal from Account 453 with insufficient funds:"
 chandrakanthBank.withdraw(453, 400)
 
-puts "\nFinal Account Details for Account 123:"
+puts "\nFinal Account Details for Account 453:"
 chandrakanthBank.accountDetails(453)
 

@@ -1,3 +1,4 @@
+
 class Student
   attr_accessor :name, :grades
 
@@ -23,6 +24,10 @@ class Student
     when 60..69 then 'D'
     else 'F'
     end
+  end
+
+  def to_s
+    "Name: #{@name}, Grades: #{@grades}, Average: #{average}, Letter Grade: #{letter_grade}"
   end
 end
 
